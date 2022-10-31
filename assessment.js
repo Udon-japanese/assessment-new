@@ -11,6 +11,7 @@ assessmentButton.onclick = () => {
     return;//処理を終了させる
   }
   //診断結果表示エリアの作成
+  resultDivided.innerText = "";
   
   // headerDivided の作成
   const headerDivided = document.createElement('div');
